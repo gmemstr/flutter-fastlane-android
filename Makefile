@@ -2,11 +2,11 @@
 .DEFAULT_GOAL := all
 
 26.0:
-	docker build -t gmem/flutter-fastlane-android:26.0 ./26.0 
+	docker build -t gmemstr/flutter-fastlane-android:26.0 ./26.0 
 27.0:
-	docker build -t gmem/flutter-fastlane-android:27.0 ./27.0 
+	docker build -t gmemstr/flutter-fastlane-android:27.0 ./27.0 
 28.0:
-	docker build -t gmem/flutter-fastlane-android:28.0 ./28.0 
+	docker build -t gmemstr/flutter-fastlane-android:28.0 ./28.0 
 29.0:
-	docker build -t gmem/flutter-fastlane-android:29.0 ./29.0 
+	docker build -t gmemstr/flutter-fastlane-android:29.0 ./29.0 
 all: 26.0 27.0 28.0 29.0
